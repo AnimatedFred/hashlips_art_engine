@@ -5,17 +5,16 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Funky Viking NFT";
+const description = "Funky Viking is a collection of 8,888 unique collectible of algorithmically generated Viking characters stored as ERC-721 tokens on the Ethereum blockchain. All with its unique viking name and description. There are 150 unique traits in 9 categories in our collection with a tier based system generating rarity attributes.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  seller_fee_basis_points: 300, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xde838Ca6daF5FA00e4445853bacb9156178ca6e8",
       share: 100,
     },
   ],
@@ -26,7 +25,7 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 8888,
     layersOrder: [
-      { name: "Background" },
+      { name: "Bg" },
       { name: "Skin" },
       { name: "Sword" },
       { name: "Shirt" },
