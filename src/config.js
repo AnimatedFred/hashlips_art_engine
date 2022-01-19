@@ -6,8 +6,8 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Funky Viking NFT";
-const description = "Funky Viking is a collection of 8,888 unique collectible of algorithmically generated Viking characters stored as ERC-721 tokens on the Ethereum blockchain. All with its unique viking name and description. There are 150 unique traits in 9 categories in our collection with a tier based system generating rarity attributes.";
-const baseUri = "ipfs://NewUriToReplace";
+const description = "Funky Viking is a collection of 8,888 unique collectible of algorithmically generated Viking characters stored as ERC-721 tokens on the Polygon blockchain. There are 150 unique traits in 9 categories in our collection with a tier based system generating rarity attributes. Find the Ethereum Armor forged by the miners deep inside the chain.";
+const baseUri = "ipfs://Qme2iFibWUXYSSARdmMhkVL8mnFSMCVxs7cFb5odWMoZ3N";
 
 const solanaMetadata = {
   symbol: "YC",
