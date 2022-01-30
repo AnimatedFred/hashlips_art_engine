@@ -10,7 +10,7 @@ const description = "Funky Viking is a collection of 8,888 unique collectible of
 const baseUri = "ipfs://Qme2iFibWUXYSSARdmMhkVL8mnFSMCVxs7cFb5odWMoZ3N";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "FV",
   seller_fee_basis_points: 300, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
